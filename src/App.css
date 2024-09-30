@@ -1,0 +1,112 @@
+/* Container styling */
+.App {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input and button styling */
+  input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task list styling */
+  ul {
+    padding: 0;
+    list-style-type: none;
+    margin-top: 20px;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+  }
+  
+  li:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Task item layout using flexbox */
+  .task-item {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  /* Strikethrough style for completed tasks */
+  .done-task {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  /* Checkbox and task alignment */
+  .task-text {
+    margin-left: 10px;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  /* Styling for the buttons inside the task list */
+  .task-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-buttons .button {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .edit-button {
+    background-color: #28a745;
+  }
+  
+  .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .save-button {
+    background-color: #ffc107;
+  }
+  
+  .save-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
